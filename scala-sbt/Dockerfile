@@ -13,3 +13,5 @@ RUN apk add --update curl bash && \
     echo -ne "- with sbt $SBT_VERSION\n" >> /root/.built
 
 WORKDIR /app
+
+EXPOSE 9000
