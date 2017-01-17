@@ -14,4 +14,8 @@ RUN apk add --update curl bash && \
 
 WORKDIR /app
 
-EXPOSE 9000
+# Web Port
+EXPOSE 9000 
+
+# Debug Port
+EXPOSE 9999
