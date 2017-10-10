@@ -14,3 +14,5 @@ RUN apt-get update && \
     chmod 0777 -R ${COMPOSER_HOME} && \
     docker-php-ext-install pdo_mysql && \
     a2enmod rewrite
+
+EXPOSE 8080
